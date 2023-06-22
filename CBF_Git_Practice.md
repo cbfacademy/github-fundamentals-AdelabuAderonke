@@ -1,14 +1,14 @@
-#NOTES ON WHAT I LEARNT ON GIT
+# NOTES ON WHAT I LEARNT ON GIT 
 Git is a version control system. It is used mainly for collaboration and keeping track of code changes.
 GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere
 Repository: a place where we store our files. 
 Remote:It can be a folder on cloud or on some websites like GitHub, GitLab or Bitbucket or anywhere. It serve as a backup if your machine was crashed by power fluctuations or any other problems. 
 
-###Commands in git
+### Commands in git :octocat:
 - Git –version: This is used to check the version of git
 	$ git –version
 - Git clone: It is used to make a copy of  that repo in a new directory. 
-$ git clone repo url
+	$ git clone repo url
 - Git add:Moves changes from the working directory to the staging area 
 - Git status: It displays information about a current repository that is the state of the repository by listing out all the files in the repository
 	$ git status
@@ -30,7 +30,7 @@ $ git clone repo url
 $ mkdir directory_name
   
   
-  ###Confused? 😕
+  ### Confused? 😕
   Yes, I am still confused if I can create  a repository locally without having to create a repository on Github. Once I push from the terminal it will appear automatically.
   I have always dreaded Git, CBF is making it interesting 😎
 
