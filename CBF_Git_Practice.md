@@ -6,28 +6,30 @@ Remote:It can be a folder on cloud or on some websites like GitHub, GitLab or Bi
 
 ### Commands in git :octocat:
 - Git –version: This is used to check the version of git
-	$ git –version
+	`$ git –version`
 - Git clone: It is used to make a copy of  that repo in a new directory. 
-	$ git clone repo url
-- Git add:Moves changes from the working directory to the staging area 
+	`$ git clone repo url`
+- Git add:Moves changes from the working directory to the staging area
+       `$ git add .` 
 - Git status: It displays information about a current repository that is the state of the repository by listing out all the files in the repository
-	$ git status
+	`$ git status`
 - Git pull: It is used to fetch and update content on the local repository from the remote repository 
-	$ git pull
+	`$ git pull`
 - Git init:Initializes a new Git repository. If you want to place a project under revision control, this is the first command you need to learn.
-          $  git init
-- Git push: A simple way of sending update to the origin. Latest update made on the Local repository is made available on the remote repository,
+          `$  git init`
+- Git push: A simple way of sending update to the origin. Latest update made on the Local repository is made available on the remote repository
+         `$ git push`
 - Git commit : The commit command is used to save your changes to the local repository.  
- 	$ git commit -m “ your commit message”
+ 	`$ git commit -m “ your commit message”`
 - Git merge:A way to integrate changes from different branches. After forking the project history with git branch, git merge lets you put it back together again.
-	$ git merge
+	`$ git merge`
 - Git branch:List all of the branches in your repository. 
-	$ git branch 
+	`$ git branch `
 - Git checkout: Allow you to change from one branch to another.
-	$ git checkout <branchname>
-	- $ git checkout -b <branchname>  - This create a new branch and checkout to that branch
+	`$ git checkout <branchname>`
+	- `$ git checkout -b <branchname>`  - This create a new branch and checkout to that branch
 - Mkdir : This is used to create a new folder  or root directory
-$ mkdir directory_name
+	`$ mkdir directory_name`
   
   
   ### Confused? 😕
